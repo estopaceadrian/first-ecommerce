@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 16px;
+}
+
+.f-shipping-banner {
+  text-transform: uppercase;
+  background-color: rgb(138, 230, 0);
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+.f-shipping-banner strong {
+  font-size: 18px;
+  color: rgb(9, 70, 49);
+}
+
+.head-container {
+  background-color: azure;
+}
+.store-name {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 20px;
+  letter-spacing: 2px;
+  justify-content: center;
+}
+
+.active {
+  text-decoration: underline;
+}
+.menu:hover {
+  color: black;
+}
+
+.menu {
+  cursor: pointer;
+  color: rgb(116, 126, 113);
+}
+
+/* CATEGORY */
+.category {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 2px;
+  gap: 16px;
+  padding-right: 0;
+}
+
+.right-menu {
+  gap: 16px;
+}
+
+.adsimg {
+  width: 100%;
+}
+
+.srch {
+  height: 32px;
+}
+
+/* CATEGORY HOME */
+.categoryhd {
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  margin-top: 12px;
+  font-family: calibri;
+}
+
+.catpads {
+  margin: 12px 10px;
+  padding: 12px 20px;
+  background-color: burlywood;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  font-family: calibri;
+  margin-bottom: 12px;
+}
+
+/* ITEM MAIN PAGE */
+.mprice {
+  font-weight: bold;
+  color: orangered;
+  padding-bottom: 0;
+}
+
+.progress {
+  height: 10px;
+}
+
+.mprice s {
+  font-size: 12px;
+  color: gray;
+  margin-left: 6px;
+}
+.percent-sold {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.bestseller {
+  background-color: #facf19;
+  color: 222;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 3px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.sale-percent {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.hot-product {
+  background-color: #db0c0c;
+  color: 222;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 3px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  left: 0;
+}
+
+.hot-percent {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.discount {
+  background-color: #222;
+  color: 222;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding: 3px 10px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  top: 6px;
+  left: 0;
+}
+.dsct-wrapper {
+  display: block;
+}
+
+.item-name {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #767676;
+}
+
+/* PRODUCT */
+.sku {
+  margin-right: 20px;
+  font-size: 12px;
+  color: #b3a8a8;
+}
+
+.p-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: orangered;
+  padding-bottom: 0;
+}
+
+.p-discount {
+  font-size: 16px;
+  color: gray;
+  margin-left: 6px;
+  margin-top: 5px;
+}
+
+.crsr {
+  cursor: pointer;
+}
+.p-dtag {
+  background-color: #222;
+  color: 222;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  margin-left: 5px;
+}
+/* COLORS */
+
+.color-list {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  gap: 8px;
+}
+.brown {
+  padding: 10px;
+  background-color: rgb(235, 188, 127);
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.violet {
+  padding: 10px;
+  background-color: rgb(127, 11, 131);
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.maroon {
+  padding: 10px;
+  background-color: rgb(126, 25, 25);
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.c-margin {
+  margin-left: 20px;
+}
+
+/* FOOTER */
+.footex {
+  background-color: #89967e;
+  color: white;
+  margin-top: 20px;
+  bottom: 0;
+}
+
+.cinfo {
+  font-size: 12px;
+}
+
+.cinfo p {
+  font-weight: bold;
+}
+
+/* aDS */
+
+.f-sale {
+  font-size: 38px;
+  font-weight: 900;
+  color: #333;
+  line-height: 82px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+/* USER */
+.capt {
+  font-size: smaller;
+  font-weight: 200;
+}
+.optx {
+  font-size: small;
+  font-weight: 200;
+}
+.sign-up {
+  border: 1px solid green;
+  padding: 22px;
+  border-radius: 10px;
+}
+
+.log-in {
+  font-size: 38px;
+  font-weight: 900;
+  color: #333;
+  line-height: 82px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-right: 120px;
+}
